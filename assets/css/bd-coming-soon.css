@@ -434,7 +434,7 @@ for the mobile phone and tablet form*/
   svg {
     visibility: visible;
     max-width: 100%;
-    max-height: 500px;
+    max-height: 100%;
   }
   .img-overlay-wrap {
     position: relative;
@@ -460,6 +460,11 @@ for the mobile phone and tablet form*/
   .svgCornerTL {
     visibility: hidden;
   }
+  svg {
+    visibility: visible;
+    max-width: 100%;
+    max-height: 100%;
+  }
   .img-overlay-wrap {
     position: relative;
     display: inline-block; /* <= shrinks container to image size */
@@ -477,12 +482,17 @@ for the mobile phone and tablet form*/
     position: absolute;
     top: 0;
     left: 0;
-  }
+
 }
 
 @media screen and (max-width: 375px) {
   .svgCornerTL {
     visibility: hidden;
+  }
+  svg {
+    visibility: visible;
+    max-width: 100%;
+    max-height: 100%;
   }
   .img-overlay-wrap {
     position: relative;
@@ -508,6 +518,11 @@ for the mobile phone and tablet form*/
   .svgCornerTL {
     visibility: hidden;
   }
+  svg {
+    visibility: visible;
+    max-width: 100%;
+    max-height: 100%;
+  }
   .img-overlay-wrap {
     position: relative;
     display: inline-block; /* <= shrinks container to image size */
@@ -526,4 +541,5 @@ for the mobile phone and tablet form*/
     top: 0;
     left: 0;
   }
+
 }
